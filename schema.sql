@@ -5,8 +5,6 @@ CREATE TABLE clients(
     email text not null unique,
     hash_password text not null
 );
-delete from interprises;
-drop table clientes;
 CREATE TABLE interprises (
 	id SERIAL PRIMARY KEY,
   name TEXT NOT NULL,
